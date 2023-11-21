@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crafty Grandmas' hotel</title>
+    <style>
+        body {
+            background-image: url('exterior-view.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            color: yellow;
+            font-size: 55px;
+            font-family: courier;
+            text-align: center;
+        }
+
+        h2 {
+            color: orange;
+            font-size: 30px;
+            font-family: courier;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+
+        hr {
+            border: 1px solid #f8f8f8;
+        }
+
+        img.animated {
+            width: 160px;
+            height: 150px;
+            animation: rotate 5s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body style="background-color:white;">
+
+    <h1> Crafty Grandmas' hotel</h1>
+    <h2> Welcome to the Crafty Grandmas' hotel</h2>
+    <p> <i>We're the place where every lady can relax and do any crafts she likes. Supplies, cooking and cleaning up
+            is on us! Enjoy your favorite crafting or try something new. Our awesome crafty grandmoms will support you
+            with everything. Just let your talantes bloom!</i></p>
+    <hr>
+    <h2> Our mission</h2>
+    <p> <i>We believe that creativity is an important and necessary part of our lives. We would like every woman,
+            who's busy with her job and/or taking care of her family, had a chance to relax and create. And let us take
+            care of you like a loving grandma would do.</i></p>
+    <hr>
+    <h2> About us</h2>
+    <p><i> We're two lifetime friends, named Sun and River. That's exactly what our names mean in our native
+            languages. As long as we remember ourselves we love drawing, embroidery, knitting, makrame, gardening, wood
+            works, etc. Crafting helped us stay postive in hard times and brightened our best days. And yes, technically
+            we're grandmoms. River has a gift grandson, and Sun is thinking herself as a grandma of her cousins'
+            grandkids.</i></p>
+    <img src="ladies.png" alt="ladies.png" class="animated">
+    <div class="dropdown">
+        <button class="dropbtn">Choose How to Continue </button>
+        <div class="dropdown-content">
+            <a href="second_page.html">Explore our options</a>
+            <a href="third_page.html">Book your stay</a>
+            <a href="fourth_page.html">Tell us about yourself</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
